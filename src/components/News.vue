@@ -354,7 +354,8 @@ export default {
             document.querySelector("#file-post").value = null;
             this.displayPosts();
           })
-          .catch((error) => console.log(error));
+          //.catch((error) => console.log(error));
+          .catch((error) => console.log("l'erreur est ici=======", error));
       }
     },
 
